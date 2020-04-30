@@ -23,8 +23,8 @@ DROP USER 'root'@'localhost';
 CREATE USER 'root'@'localhost' IDENTIFIED BY '';
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' WITH GRANT OPTION;
 
-CREATE USER 'marco'@'localhost' IDENTIFIED BY 'mypassword';
-GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' WITH GRANT OPTION;
+CREATE USER 'bryant'@'localhost' IDENTIFIED BY 'ServicePW1';
+GRANT ALL PRIVILEGES ON *.* TO 'bryant'@'localhost' WITH GRANT OPTION;
 
 exit
 
